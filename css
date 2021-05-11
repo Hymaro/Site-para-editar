@@ -1,0 +1,130 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+	#menu {
+		list-style: none;
+		padding: 0;
+		background-color: gray;
+	}
+
+	#menu li {
+		display: inline;
+	}
+
+	#menu li a {
+		color: white;
+		padding: 20px;
+		display: inline-block;
+		text-decoration: none;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	#menu li a:hover{
+		background-color: #689ff7; 
+	}
+
+	#menu h1 {
+		color: white;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+	}
+
+	#chamada {
+		background-color: #a3f0de; 
+	}
+
+	#chamada h2 {
+		color: black;
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	#chamada h3 {
+		color: black;
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+	}
+
+	#container {
+		text-align: center;
+
+	}
+
+	.botao {
+		background: #069cc2; 
+		border-radius: 6px; 
+		padding: 15px; 
+		cursor: pointer; 
+		color: #fff; 
+		border: none; 
+		font-size: 16px;
+	}
+
+	#final {
+		text-align: border;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 10px;
+		background-color: #000000;
+		color: white;
+	}
+
+	.button {
+		background: black; 
+		border-radius: 6px; 
+		padding: 9px; 
+		cursor: pointer; 
+		color: #fff; 
+		border: none; 
+		font-size: 16px;
+	}
+
+	.dis-bu {
+		background: blue;
+		border-radius: 6px; 
+		padding: 9px; 
+		cursor: pointer; 
+		color: #fff; 
+		border: none; 
+		font-size: 16px;
+	}
+
+	.youtu {
+		background: red; 
+		border-radius: 6px; 
+		padding: 9px; 
+		cursor: pointer; 
+		color: #fff; 
+		border: none; 
+		font-size: 16px;
+
+	}
+
+	#copyright h3{
+		text-align: border;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 10px;
+		background-color: #000000;
+		color: white;
+	}
+
+	#quem-somos h2 {
+		text-align: center;
+		background-color: white;
+		font-family:'Antonio', sans-serif;
+	}
+
+	#quem-somos h3 {
+		background-color: #FFF;
+		text-align: center;
+		font-family: 'Antonio', sans-serif;
+	}
+
+	.fixarodape {
+		bottom: 0;
+		position: fixed;
+		width: 100%;
+		background-color: black;
+	}
